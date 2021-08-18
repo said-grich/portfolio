@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Grich</title>
+</head>
+<body>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand"  href="#about"><img src="logo.svg" " srcset=""></a>
+            </div>
+            <div id="navbar" style="display: flexbox; flex-direction: row;">
+              <ul class="nav navbar-nav navbar-right" style="display: flex; flex-direction: row;">
+                <li id="nav-about"><a href="#about">About</a></li>
+                <li id="nav-portfolio"><a href="#portfolio">Portfolio</a></li>
+                <li id="nav-contact"><a href="#contact">Contact</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
+        <!-- Begin page content -->
+        <div class="container-fluid">
+          <div class="row cover top">
+            <div class="box1" style="display: flex; justify-content: center;">
+              <h1 class="text-center">Hi, I'm Grich<br><span class="text-span">A Web Developer in training.</span></h1>
+            </div>
+          </div> 
+         </div>
+          
+          
+          <div id="about" class="row cover">
+            <div class="box1">
+              <h2 class="text-center">About Me</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-6 text-center about-info">
+                <img class="img-circle text-center profile-img rounded-circle" style="height: 140px; width: 150px;" src="me.jpg">
+                <p class="text-center">I'm a self taught web developer , I'm currently learning Spring web flux development with javaBrains . I also have degrees in IT so I can't wait till I get to the point where I can jump into the more interactive data visualizations and put what I'm learning to good use. But for now I'm having fun learning the basics!</p>
+              </div>
+              <div class="col-md-6 about-tools">
+                <p class="text-center">Here's a few of the tools I use</p>
+                  <div class="col-xs-6">
+                    <ul>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>Javascript & TypeScript</li>
+                      <li>Java: Spring Boot</li>
+                      <li>Angular</li>
+                    </ul>
+                  </div>                
+              </div>
+            </div> 
+          </div><!-- End #About -->
+    
+          <div id="portfolio" class="row cover">
+            <div class="box1">
+              <h2 class="text-center">Portfolio</h2>
+            </div>
+            <div class="box1">
+              <h1 class="text-center text-light">Comming Soon ..</h1> 
+
+            </div>
+            </div>
+          </div><!-- End #Portfolio -->
+    
+          <div id="contact" class="row cover bottom">
+            <div class="box1">
+
+              <h2 class="text-center contact-header">Contact Me</h2>
+              <p class="text-center contact-email">Get in touch with me <span class="glyphicon glyphicon-arrow-right"></span> sswaad06@gmail.com</p>
+            
+            </div>
+            <div class="text-center contact-social-icons">
+              <p>Or find me on:</p>
+              <ul class="box1">
+                <a href="https://www.linkedin.com/in/said-grich-728320203/"><li><i class="fa fa-linkedin-square"></i> LinkedIn</li></a>
+                <a href=""><li><i class="fa fa-github"></i> Github</li></a>
+                <a href="https://web.facebook.com/grichsama"><li><i class="fa fa-github"></i>Faceboock</li></a>
+              </ul>
+            </p>
+            
+          </div><!-- End #Contact -->
+        </div>
+      <script src="script.js"></script>
+</body>
+</html>
